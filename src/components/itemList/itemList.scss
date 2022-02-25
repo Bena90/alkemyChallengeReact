@@ -1,0 +1,17 @@
+.recipe{
+
+    box-shadow: 0.2rem 0.4rem 0.5rem rgba(37, 10, 10, 0.4);
+    border-radius: 1rem;
+    background-color: white;
+    text-align: center;
+    margin: 0.3rem;
+    color: rgba(0, 0, 0, 0.9);
+
+    @media (min-width: 1200px) {
+        width: 260px;
+        }
+    @media screen and (min-width: 400px) and (max-width: 1199px) {
+            width: 200px;
+            max-width: 200px;
+        }
+}

@@ -1,0 +1,15 @@
+.averageContainer{
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.4rem 0.5rem rgba(37, 10, 10, 0.4);
+    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    p, h5 {
+        margin-bottom: 0px;
+    };
+    h5{
+        @media (max-width: 360px) {
+        font-size: 15px;
+        }
+    }
+}

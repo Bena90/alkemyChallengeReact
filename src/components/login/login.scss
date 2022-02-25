@@ -1,0 +1,14 @@
+.loginContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    max-width: 400px;
+    .form-label{
+        font-size: 17px;
+    }
+    .btn{
+        margin:0;
+    }
+}
